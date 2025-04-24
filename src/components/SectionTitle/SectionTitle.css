@@ -1,0 +1,61 @@
+.section-title {
+    margin-bottom: 100px;
+    text-align: center;
+    /* width: 80vw; */
+    /* border: 2px solid black; */
+}
+.section-title span {
+    color: #007bff; /* Assuming $color-blue is #007bff */
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.section-title h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-left: 100px;
+}
+.section-title p {
+    color: #000; /* Assuming $color-black is #000 */
+    font-weight: 500;
+}
+
+/* Mobile Responsive */
+@media (max-width: 575px) {
+    .section-title {
+        margin-bottom: 20px;
+    }
+    .section-title span {
+        margin-bottom: 5px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .section-title {
+        margin-bottom: 20px;
+    }
+    .section-title span {
+        margin-bottom: 5px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .section-title {
+        margin-bottom: 30px;
+    }
+    .section-title span {
+        margin-bottom: 5px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+}
