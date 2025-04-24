@@ -7,6 +7,9 @@ import BlogsPage from './pages/BlogsPage';
 import Contactus from './pages/Contact/Contactus';
 import Service from './components/Service/Service';
 import Services from './sections/Services/Services';
+import ReactGA from "react-ga";
+
+ReactGA.initialize("G-PQ5328HPCH");
 
 function App() {
   return (
